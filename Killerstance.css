@@ -1,2 +1,23 @@
 p {
-    color: white;
+    color: red;
+}
+
+img {
+        display: block;
+    margin: auto;
+}
+
+div {
+    height:25px;
+    width:125px;
+    border:2px solid red;
+    border-radius:10px;
+    background-color:black;
+    margin: auto;
+    text-align: center;
+}
+a {
+    color:red;
+    font-size:20px;
+}
+   
