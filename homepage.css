@@ -1,19 +1,15 @@
-#header {
-    height: 612px;
-    background: url(imgs/logo.jpg) no-repeat center top;
-}
-
 body {
     background-color: black;
-}
-
-p {
-    color: red;
 }
 
 a {
     color:red;
     font-size:20px;
+}
+
+#header {
+    height: 612px;
+    background: url(imgs/logo.jpg) no-repeat center top;
 }
 
 .basictab{
@@ -46,18 +42,6 @@ color: black;
 color: black;
 }
 
-.header {
-    font-family: serif;
-    color:white;
-    position: inherit;
-    top:630px;
-    text-align: center;
-    font-size: 1.3em;
-    font-style: italic;
-    margin: auto;
-    display: block;
-}
-
 .maintext {
     font-family: serif;
     color:white;
@@ -69,3 +53,6 @@ color: black;
     margin-right: 30%;
 }
 
+#testi {
+    color: white;
+}
