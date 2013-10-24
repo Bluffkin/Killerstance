@@ -1,25 +1,19 @@
-p {
-    color: red;
+#header {
+    height: 612px;
+    background: url(imgs/logo.jpg) no-repeat center top;
 }
 
-img {
-        display: block;
-    margin: auto;
+body {
+    background-color: black;
+}
+
+p {
+    color: red;
 }
 
 a {
     color:red;
     font-size:20px;
-}
-
-/* div {
-    height:25px;
-    width:125px;
-    border:2px solid red;
-    border-radius:10px;
-    background-color:black;
-    margin: auto;
-    text-align: center; */
 }
 
 .basictab{
@@ -74,3 +68,4 @@ color: black;
     margin-left: 30%;
     margin-right: 30%;
 }
+
