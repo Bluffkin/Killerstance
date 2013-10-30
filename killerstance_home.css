@@ -2,6 +2,11 @@ body {
     background-color: black;
 }
 
+img {
+        display: block;
+    margin: auto;
+}
+
 a {
     color:red;
     font-size:20px;
@@ -12,9 +17,46 @@ a {
     background: url(imgs/logo.jpg) no-repeat center top;
 }
 
+.testimoan {
+    font-family: cursive;
+    color:white;
+    position: relative;
+    text-align: center;
+    font-size: 1.3em;
+    font-style: italic;
+    margin: auto;
+}
+
+#nav {
+    float:left;
+}
+
+
+#maincontent {
+    font-family: serif;
+    color:white;
+    font-size: 1.3em;
+    float: left;
+}
+  
+.maintext {
+    position: inherit;
+    margin-left: 50px;
+
+}
+#social {
+    float: left;
+    color: yellow;
+    margin-left: 100px;
+}
+
+#footer {
+
+}
+
 .basictab{
 padding: 3px 0;
-font: italic 12px Serif;
+font: italic 12px cursive;
 list-style-type: none;
 text-align: left; /*set to left, center, or right to align the menu as desired*/
 top: 30px
@@ -28,7 +70,7 @@ height: 30px
 
 .basictab li a{
 text-decoration: none;
-margin-right: 3px;
+margin-right: 300px;
 border-bottom: none;
 color: red;
 }
@@ -40,19 +82,4 @@ color: black;
 
 .basictab li a:active{
 color: black;
-}
-
-.maintext {
-    font-family: serif;
-    color:white;
-    top:690px;
-    font-size: 1.3em;   
-    text-align: left; 
-    position: absolute;
-    margin-left: 30%;
-    margin-right: 30%;
-}
-
-#testi {
-    color: white;
 }
