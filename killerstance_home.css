@@ -3,7 +3,7 @@ body {
 }
 
 img {
-        display: block;
+    display: block;
     margin: auto;
 }
 
@@ -31,28 +31,50 @@ a {
     float:left;
 }
 
-
 #maincontent {
-    font-family: serif;
+    font-family: cursive;
     color:white;
-    font-size: 1.3em;
-    float: left;
+    position: relative;
+    font-size: 1em;
+    text-align: center;
+    margin-right: 380px;
+    margin-left: 200px;
 }
-  
-.maintext {
-    position: inherit;
-    margin-left: 50px;
 
-}
 #social {
     float: left;
-    color: yellow;
-    margin-left: 100px;
+    position: absolute;
+    margin-left: 90%;
+    margin-right: 20%;
+    top: 700px;
 }
 
 #footer {
 
 }
+
+.topline {
+    width: 100%;
+    position: absolute;
+}
+
+/*#vertical
+{
+ height: 100%;
+ border-left: 1px solid white;
+ top: 600px;
+ margin-left: 250px;
+ position: absolute;
+} 
+
+#verticalright
+{
+ height: 100%;
+ border-left: 1px solid white;
+ position: absolute;
+ top: 600px;
+ right: 250px;
+} */
 
 .basictab{
 padding: 3px 0;
@@ -63,6 +85,7 @@ top: 30px
 }
 
 .basictab li{
+margin-left: 20%;
 display: block;
 padding: 8px;
 height: 30px
@@ -70,7 +93,6 @@ height: 30px
 
 .basictab li a{
 text-decoration: none;
-margin-right: 300px;
 border-bottom: none;
 color: red;
 }
