@@ -20,61 +20,54 @@ a {
 .testimoan {
     font-family: cursive;
     color:white;
-    position: relative;
     text-align: center;
     font-size: 1.3em;
     font-style: italic;
-    margin: auto;
+    padding: 0 20% 10px 20%;
+    margin: 0;
+    border-bottom: 1px solid #fff;
 }
 
-#nav {
-    float:left;
-}
-
-#maincontent {
-    font-family: cursive;
-    color:white;
+#main {
     position: relative;
-    font-size: 1em;
-    text-align: center;
-    margin-right: 380px;
-    margin-left: 200px;
+    overflow: hidden;
 }
 
-#social {
-    float: left;
+#main:before {
+    content: '';
     position: absolute;
-    margin-left: 90%;
-    margin-right: 20%;
-    top: 700px;
+    top: 0;
+    bottom: 0;
+    left: 20%;
+    border-right: 1px solid #fff;
+}
+
+#main:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 20%;
+    border-right: 1px solid #fff;
+}
+
+#nav, #social {
+    float:left;
+    width: 20%;
+}
+
+.maincontent {
+    float: left;
+    font-family: serif;
+    color:white;
+    font-size: 1.2em;
+    text-align: center;
+    width: 60%;
 }
 
 #footer {
 
 }
-
-.topline {
-    width: 100%;
-    position: absolute;
-}
-
-/*#vertical
-{
- height: 100%;
- border-left: 1px solid white;
- top: 600px;
- margin-left: 250px;
- position: absolute;
-} 
-
-#verticalright
-{
- height: 100%;
- border-left: 1px solid white;
- position: absolute;
- top: 600px;
- right: 250px;
-} */
 
 .basictab{
 padding: 3px 0;
@@ -88,12 +81,12 @@ top: 30px
 margin-left: 20%;
 display: block;
 padding: 8px;
-height: 30px
+height: 80px
 }
 
 .basictab li a{
 text-decoration: none;
-border-bottom: none;
+border-bottom: solid 1px white;
 color: red;
 }
 
@@ -104,4 +97,14 @@ color: black;
 
 .basictab li a:active{
 color: black;
+}
+
+h1 {
+    top: 60px;
+    margin-right: 200px;
+    margin-left: 100px;
+    text-align: center;
+    position: relative;
+    color: white;
+    text-decoration: underline;
 }
