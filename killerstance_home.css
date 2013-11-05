@@ -12,6 +12,12 @@ a {
     font-size:20px;
 }
 
+a:hover{
+    background-color: red;
+    color: white;
+    font-style: italic;
+}
+
 #header {
     height: 612px;
     background: url(imgs/logo.jpg) no-repeat center top;
@@ -25,7 +31,13 @@ a {
     font-style: italic;
     padding: 0 20% 10px 20%;
     margin: 0;
-    border-bottom: 1px solid #fff;
+}
+
+.topline {
+    margin-right: 20%;
+    margin-left: 20%;   
+    border-bottom: 1px solid white;
+
 }
 
 #main {
@@ -63,6 +75,7 @@ a {
     font-size: 1.2em;
     text-align: center;
     width: 60%;
+    a hover
 }
 
 #footer {
