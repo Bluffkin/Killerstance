@@ -5,6 +5,7 @@ body {
 img {
     display: block;
     margin: auto;
+    border:none; /* Mention this to Jon! */
 }
 
 a {
@@ -16,7 +17,7 @@ a:hover{
     background-color: red;
     color: white;
     font-style: italic;
-}
+} 
 
 #header {
     height: 612px;
@@ -66,6 +67,7 @@ a:hover{
 #nav, #social {
     float:left;
     width: 20%;
+    border-color: black;
 }
 
 .maincontent {
