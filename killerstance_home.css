@@ -37,7 +37,6 @@ a:hover{
     margin-right: 20%;
     margin-left: 20%;   
     border-bottom: 1px solid white;
-
 }
 
 #main {
@@ -88,6 +87,8 @@ a:hover{
     text-align: center;
     width: 60%;
     border-bottom: 1px solid white;
+    padding-top: 30px;
+    padding-bottom: 60px;
 }
 
 h2 {
@@ -96,7 +97,6 @@ h2 {
 }
 
 #footer {
-
     margin: 0 20% 0 28%;
 
 }
@@ -132,6 +132,6 @@ h2 {
 }
 
 #footertest {
-    padding-top: 10px;
-    margin-left: 40%;
+	text-align:center;
+	padding-top:10px;
 }
