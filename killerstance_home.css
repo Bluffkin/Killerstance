@@ -80,46 +80,46 @@ a:hover{
     a hover
 }
 
+h2 {
+    text-decoration: underline;
+    margin-bottom: 0;
+}
+
 #footer {
+    margin-left: 20%;
+    margin-right: 20%;
+    border-top: white solid 1px;
+    padding: 10px;
 
 }
 
 .basictab{
-padding: 3px 0;
-font: italic 12px cursive;
-list-style-type: none;
-text-align: left; /*set to left, center, or right to align the menu as desired*/
-top: 30px
+    padding: 3px 0;
+    font: italic 12px cursive;
+    list-style-type: none;
+    text-align: left; /*set to left, center, or right to align the menu as desired*/
+    top: 30px
 }
 
 .basictab li{
-margin-left: 20%;
-display: block;
-padding: 8px;
-height: 80px
+    margin-left: 20%;
+    display: block;
+    padding: 8px;
+    height: 80px
 }
 
 .basictab li a{
-text-decoration: none;
-border-bottom: solid 1px white;
-color: red;
+    text-decoration: none;
+    border-bottom: solid 1px white;
+    color: red;
 }
 
 .basictab li a:hover{
-background-color: red;
-color: black;
+    background-color: red;
+    color: black;
 }
 
 .basictab li a:active{
-color: black;
+    color: black;
 }
 
-h1 {
-    top: 60px;
-    margin-right: 200px;
-    margin-left: 100px;
-    text-align: center;
-    position: relative;
-    color: white;
-    text-decoration: underline;
-}
