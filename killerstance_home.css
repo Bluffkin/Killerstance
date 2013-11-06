@@ -84,7 +84,7 @@ a:hover{
     float: left;
     font-family: serif;
     color:white;
-    font-size: 1.2em;
+    font-size: 1em;
     text-align: center;
     width: 60%;
     border-bottom: 1px solid white;
@@ -103,7 +103,7 @@ h2 {
 
 .basictab{
     padding: 3px 0;
-    font: italic 12px cursive;
+    font: 12px cursive;
     list-style-type: none;
     text-align: left; /*set to left, center, or right to align the menu as desired*/
     top: 30px
