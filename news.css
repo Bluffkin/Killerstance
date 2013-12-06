@@ -3,10 +3,6 @@
 @import url(http://fonts.googleapis.com/css?family=Metal+Mania);
 @import url(http://fonts.googleapis.com/css?family=Autour+One);
 
-body {
-    background-color: black;
-} 
-
 a {
     color:red;
     font-size:20px;
@@ -22,7 +18,7 @@ a:hover{
 } 
 
 #header {
-    height: 200px;
+    height: 250px;
     background: url(imgs/logo2.jpg) no-repeat center top;
 }
 
@@ -42,6 +38,8 @@ div ul li:hover > ul {
     border-bottom: 1px solid white;
     border-top: 1px solid white;
     float: left;
+    width: 40%;
+    margin-left: 30%;
 
 }
 
@@ -53,12 +51,8 @@ h2 {
     float: left;
 }
 
-#logos{
-
-}
 #shattered {
     float: left;
-    padding-right: 50px;
 
 }
 
@@ -135,3 +129,9 @@ nav ul ul li a:hover {
     border-bottom: 1px solid white;
 }
 
+#wrapper {
+    min-width: 1500px;
+    background: url(imgs/test.jpg);
+    background-size: 100%;
+
+}
