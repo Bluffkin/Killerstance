@@ -133,5 +133,6 @@ nav ul ul li a:hover {
     min-width: 1500px;
     background: url(imgs/test.jpg);
     background-size: 100%;
+    overflow: hidden;
 
 }
