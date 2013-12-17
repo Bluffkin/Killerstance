@@ -1,0 +1,100 @@
+@import url(http://fonts.googleapis.com/css?family=Nosifer);
+@import url(http://fonts.googleapis.com/css?family=Autour+One);
+
+body {
+	background: black;
+}
+
+#header {
+	height: 250px;
+	background: url(imgs/logo2.jpg) no-repeat center top;
+}
+
+nav {
+	text-align: center;
+	font-family: 'Nosifer';
+}
+
+nav ul ul {
+	display: none;
+}
+
+nav ul li:hover > ul {
+	display: block;
+}
+
+nav ul { 
+	padding: 0 20px;
+	list-style: none;
+	position: relative;
+	display: inline-table;
+}
+
+nav ul:after {
+	content: ""; clear: both; display: block;
+}
+
+nav ul li {
+	float: left;
+}
+
+nav ul li:hover {
+	background: #4b545f;
+	background: linear-gradient(top, #4f5964 0%, #5f6975 40%);
+	background: -moz-linear-gradient(top, #4f5964 0%, #5f6975 40%);
+	background: -webkit-linear-gradient(top, #4f5964 0%,#5f6975 40%);
+}
+
+nav ul li:hover a {
+	color: #fff;
+}
+
+nav ul li a {
+	display: block; padding: 25px 50px;
+	color: #757575; text-decoration: none;
+}
+
+nav ul ul {
+	background: #5f6975; border-radius: 0px; padding: 0;
+	position: absolute; top: 100%;
+}
+
+nav ul ul li {
+	float: none; 
+	border-top: 1px solid #6b727c;
+	border-bottom: 1px solid #575f6a;
+	position: relative;
+}
+
+nav ul ul li a {
+	padding: 15px 40px;
+	color: #fff;
+}
+
+nav ul ul li a:hover {
+	background: #4b545f;
+}
+
+#oblivion {
+	text-align: center;
+}
+
+#desc {
+	color: white;
+	text-align: center;
+	font-family: 'Autour One', serif;
+}
+
+#wrapper {
+	min-width: 1200px;
+}
+
+#facebook {
+	float: left;
+	margin-left: 40%;
+}
+
+#twitter {
+	float: right;
+	margin-right: 40%;
+}
