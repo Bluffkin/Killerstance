@@ -129,10 +129,13 @@ nav ul ul li a:hover {
     border-bottom: 1px solid white;
 }
 
+#dec1813 {
+    border-bottom: 1px solid white;
+}
+
 #wrapper {
     min-width: 1500px;
     background: url(imgs/test.jpg);
     background-size: 100%;
     overflow: hidden;
-
 }

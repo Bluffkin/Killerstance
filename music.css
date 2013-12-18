@@ -3,6 +3,7 @@
 
 body {
 	background: black;
+	font-size: 0.8em;
 }
 
 #header {
@@ -83,6 +84,8 @@ nav ul ul li a:hover {
 	color: white;
 	text-align: center;
 	font-family: 'Autour One', serif;
+	margin-right: 30%;
+	margin-left: 30%;
 }
 
 #wrapper {
